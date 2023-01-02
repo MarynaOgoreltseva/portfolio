@@ -1,0 +1,439 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrap {
+    width: 1376px;
+    margin: 0 auto;
+}
+
+/* header start */
+.header {
+    background: url('../img/header-bg.jpg') no-repeat center;
+    padding-bottom: 100px;
+}
+
+.header_line {
+    padding-top: 39px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo {
+    width: 88px;
+    height: 36px;
+    margin: auto 0;
+}
+
+.header_nav {
+    margin: auto 0;
+}
+
+.header_list {
+    list-style-type: none;
+    margin: auto 0;
+    padding-left: 0;
+    display: flex;
+}
+
+.header_item {
+    margin-right: 54px;
+}
+
+.header_item:last-of-type {
+    margin-right: 0;
+}
+
+.header_link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.header_link:hover {
+    opacity: 0.5;
+}
+
+.header_user {
+    display: flex;
+}
+
+.header_user-text {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-right: 8px;
+    font-style: normal;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.header_user-word {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    opacity: 0.5;
+    text-align: right;
+}
+
+.header_user-name { 
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: right;
+}
+
+.header_user-photo {
+    position: relative;
+}
+
+.header_circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #FF0000;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.header_content {
+    text-align: center;
+    margin-bottom: 184px;
+}
+
+.header_title {  
+    margin-top: 175px;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.header_button {
+    margin-top: 32px;
+    display: inline-block;
+    background-color: #7B61FF;
+    padding: 24px;
+    border-radius: 12px;
+}
+
+.header_button-link {
+    background: url('../img/group.png') no-repeat left;
+    padding-left: 32px; 
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background-color: #7B61FF;
+}
+
+/* form styles start  такая же есть в footer*/
+.form_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form_item {
+    padding: 16px 0px 16px 56px;
+}
+
+.form_label {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #5B5B5B;  
+    display: block;
+}
+
+.form_input {
+    border: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.form_input:placeholder {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161414;
+}
+/* form styles end */
+
+.form_content__header {
+    background-color: #FFFFFF;
+    padding: 8px;
+    border-radius: 12px;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.form_item__location {
+    background: url(../img/iconlocation.png) no-repeat 16px center;
+}
+
+.form_item__activity {
+    background: url(../img/iconactivity.png) no-repeat 16px center;
+}
+
+.form_item__when {
+    background: url(../img/iconwhen.png) no-repeat 16px center;
+}
+
+.form_item__guest {
+    background: url(../img/iconguests.png) no-repeat 16px center;
+}
+
+
+/* button styles  такая же есть в footer*/
+.button {
+    padding: 0;
+    border: 0;
+    border-radius: 12px;
+    width: 72px;
+    height: 72px;
+}
+
+.button:hover, .button:focus, .button:active {
+    background-color: #a699e7;
+}
+/* button styles end*/
+
+.form_submit__header {
+    background: #7B61FF url(../img/Vector.svg) no-repeat center;
+}
+/* header end */
+
+/* Destination start */
+.h2 {
+    margin: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #161414;
+}
+
+.destination-title {
+    padding-top: 120px;
+    margin-bottom: 64px;
+}
+
+.destination_line {
+    display: flex;
+}
+
+.destination_item {
+    margin-right: 32px;
+}
+
+.destination_item:last-of-type {
+    margin-right: 0;
+}
+
+.destination_item-img {
+    margin-bottom: 8px;
+}
+
+.destination_item-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161414;
+}
+
+.destination_item-state {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #979797;
+}
+/* destination end */
+
+/* hotels start */
+.hotels_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hotels_title {
+    padding-top: 120px;
+    margin-bottom: 64px;
+}
+
+.hotels_button {
+    padding: 10px;
+    background-color: #F6F4FF;
+    display: inline-block;
+    border-radius: 12px;
+}
+
+.hotels_button:hover {
+    background-color: #bcb3e3;
+}
+
+.hotels_link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5243C2;
+    background: url('../img/arrow.png') no-repeat center right;
+    padding-right: 34px;
+}
+
+.hotels_line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hotels_block-name { 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161414;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+.hotels_location {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hotels_state-name {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #979797;
+    background: url('../img/map-pin.png') no-repeat center left;
+    padding-left: 20px;
+}
+/* hotels end */
+
+/* footer start */
+.footer {
+    padding: 120px 0;
+}
+
+.footer_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_label {
+    width: 355px;
+}
+
+.footer_label-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #5B5B5B;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
+.footer_social {
+    display: flex;
+}
+
+.footer_social-link {
+    display: block;
+    margin-right: 32px;
+    text-decoration: none;
+}
+
+.footer_social-link:last-of-type {
+    margin-right: 0;
+}
+
+.footer_social-icon {
+    width: 32px;
+}
+
+.footer_social-icon:last-of-type {
+    margin-right: 0;
+}
+
+.footer_menu {
+    display: flex;
+}
+
+.footer_list {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    width: 126px;
+    margin-right: 64px;
+}
+
+.footer_list:last-of-type {
+    margin-right: 0;
+}
+
+.h3 {
+    margin: 0 0 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #161414;
+}
+
+.footer_list-item {
+    margin-bottom: 12px;
+}
+
+.footer_list-item:last-of-type {
+    margin-bottom: 0;
+}
+
+.footer_list-link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #5B5B5B;
+}
+
+.footer_list-link:hover {
+    color: #272525;
+}
+
+.footer_email {
+    width:388px;
+}
+
+.form_item__email {
+    background: url(../img/mail-linemail.png) no-repeat 16px center;
+    /* padding: 16px 0px 16px 56px; */
+}
+
+.form_submit__footer {
+    background: #7B61FF url(../img/Vectorarrow_white.png) no-repeat center;
+}
+/* footer end */
