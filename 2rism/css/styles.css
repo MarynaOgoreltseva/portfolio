@@ -169,9 +169,15 @@ body {
 }
 
 .form_input {
-    border: 0;
+    border: none;
     padding: 0;
     width: 100%;
+}
+
+select {
+    background-color: transparent;
+    border: none;
+    appearance: none;
 }
 
 .form_input:placeholder {

@@ -70,29 +70,29 @@
                 </div>
                 <form class="form_content form_content__screen">
                     <div class="form_item form_item__location">
-                        <label for="location" class="form_label form_label__header">Location</label>
-                        <input type="text" class="form_input form_input__header" id="location" placeholder="Explore nearby destinations">
+                        <label for="location" class="form_label">Location</label>
+                        <input type="text" class="form_input" id="location" placeholder="Explore nearby destinations">
                     </div>
                     <div class="form_item form_item__activity">
-                        <label for="activity" class="form_label form_label__header">Activity</label>
-                        <select name="form_input" id="activity">
-                            <option>sing</option>
+                        <label for="activity" class="form_label">Activity</label>
+                        <select name="form_select" id="activity">
+                            <option disabled="disabled" selected="selected">All Activities</option>
                             <option>sleep</option>
                             <option>dance</option>
                             <option>work</option>
                         </select>
                     </div>
                     <div class="form_item form_item__when">
-                        <label for="when" class="form_label form_label__header">When</label>
-                        <input type="date" class="form_input form_input__header" id="when" placeholder="Choose a Date">
+                        <label for="when" class="form_label">When</label>
+                        <input type="date" class="form_input" id="when" value="Choose a Date">
                     </div>
                     <div class="form_item form_item__guest">
-                        <label for="guest" class="form_label form_label__header">Guests</label>
+                        <label for="guest" class="form_label">Guests</label>
                         <select name="form_input" id="guest">
+                            <option disabled="disabled" selected="selected">1 guest</option>
                             <option>1 guest</option>
                             <option>2 guest</option>
                             <option>3 guest</option>
-                            <option>4 guest</option>
                         </select>
                     </div>
                     <button type="submit" class="button form_submit__screen"></button>
@@ -106,7 +106,7 @@
                 </h2>
                 <div class="destination_line">
                     <div class="destination_item">
-                        <a href="#">
+                        <a href="#" class="destination_img-link">
                             <img src="img/imgbigsur.jpg" class="destination_item-img" alt="Big Sur">
                         </a>                        
                         <div class="destination_item-name">
@@ -117,7 +117,7 @@
                         </div>
                     </div>
                     <div class="destination_item">
-                        <a href="#">
+                        <a href="#" class="destination_img-link">
                             <img src="img/imgprescott.jpg" class="destination_item-img" alt="Prescott">
                         </a>
                         <div class="destination_item-name">
@@ -128,7 +128,7 @@
                         </div>
                     </div>
                     <div class="destination_item">
-                        <a href="#">
+                        <a href="#" class="destination_img-link">
                             <img src="img/imgfortmayers.jpg" class="destination_item-img" alt="Fort Mayers">
                         </a>
                         <div class="destination_item-name">
@@ -139,7 +139,7 @@
                         </div>
                     </div>
                     <div class="destination_item">
-                        <a href="#">
+                        <a href="#" class="destination_img-link">
                             <img src="img/imgtucson.jpg" class="destination_item-img" alt="Tucson">
                         </a>
                         <div class="destination_item-name">
@@ -150,7 +150,7 @@
                         </div>
                     </div>
                     <div class="destination_item">
-                        <a href="#">
+                        <a href="#" class="destination_img-link">
                             <img src="img/imgstjoseph.jpg" class="destination_item-img" alt="St. Joseph">
                         </a>
                         <div class="destination_item-name">
@@ -161,7 +161,7 @@
                         </div>
                     </div>
                     <div class="destination_item">
-                        <a href="">
+                        <a href="#" class="destination_img-link">
                             <img src="img/imgmadrid.jpg" class="destination_item-img" alt="Madrid">
                         </a>
                         <div class="destination_item-name">
@@ -188,7 +188,7 @@
                 </div>
                 <div class="hotels_line">
                     <div class="hotels_block">
-                        <a href="#">
+                        <a href="#" class="hotels_img-link">
                             <img src="img/monastero.jpg" class="hotels_block-img" alt="Monastero" >
                         </a>
                         <div class="hotels_block-name">
@@ -202,7 +202,7 @@
                         </div>
                     </div>
                     <div class="hotels_block">
-                        <a href="#">
+                        <a href="#" class="hotels_img-link">
                             <img src="img/tremezzo.jpg" class="hotels_block-img" alt="tremezzo" >
                         </a>
                         <div class="hotels_block-name">
@@ -216,7 +216,7 @@
                         </div>
                     </div>
                     <div class="hotels_block">
-                        <a href="#">
+                        <a href="#" class="hotels_img-link">
                             <img src="img/oberoi.jpg" class="hotels_block-img" alt="Oberoi" >
                         </a>
                         <div class="hotels_block-name">
@@ -230,7 +230,7 @@
                         </div>
                     </div>
                     <div class="hotels_block">
-                        <a href="#">
+                        <a href="#" class="hotels_img-link">
                             <img src="img/aka.jpg" class="hotels_block-img" alt="AKA" >
                         </a>
                         <div class="hotels_block-name">
