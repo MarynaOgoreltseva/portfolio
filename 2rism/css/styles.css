@@ -282,30 +282,30 @@ select {
 /* destination end */
 
 /* hotels start */
-.hotels_content {
+.title_content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
 
-.hotels_title {
+.title_content-name {
     padding-top: 120px;
     margin-bottom: 64px;
 }
 
-.hotels_button {
+.title_content-button {
     padding: 10px;
     background-color: #F6F4FF;
     display: inline-block;
     border-radius: 12px;
 }
 
-.hotels_button:hover {
+.title_content-button:hover {
     background-color: #bcb3e3;
 }
 
-.hotels_link {
+.title_content-link {
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
