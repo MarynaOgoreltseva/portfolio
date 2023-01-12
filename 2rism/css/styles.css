@@ -5,7 +5,7 @@ body {
 
 
 /* header_block start */
-.header_block {
+.header {
     background-color: #000;
     position: absolute;
     top: 0px;
@@ -18,38 +18,38 @@ body {
     margin: 0 auto;
 }
 
-.header_line {
+.wrap_header {
     padding-top: 39px;
     display: flex;
     justify-content: space-between;
 }
 
-.header_logo {
+.logo_header {
     width: 88px;
     height: 36px;
     margin: auto 0;
 }
 
-.header_nav {
+.nav {
     margin: auto 0;
 }
 
-.header_list {
+.nav__list {
     list-style-type: none;
     margin: auto 0;
     padding-left: 0;
     display: flex;
 }
 
-.header_item {
+.nav__item {
     margin-right: 54px;
 }
 
-.header_item:last-of-type {
+.nav__item:last-of-type {
     margin-right: 0;
 }
 
-.header_link {
+.nav__link {
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
@@ -59,15 +59,15 @@ body {
     color: #FFFFFF;
 }
 
-.header_link:hover {
+.nav__link:hover {
     opacity: 0.5;
 }
 
-.header_user {
+.user {
     display: flex;
 }
 
-.header_user-text {
+.user__text {
     padding-top: 3px;
     padding-bottom: 3px;
     margin-right: 8px;
@@ -76,7 +76,7 @@ body {
     text-transform: capitalize;
 }
 
-.header_user-word {
+.user__word {
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
@@ -84,18 +84,18 @@ body {
     text-align: right;
 }
 
-.header_user-name { 
+.user__name { 
     font-weight: 600;
     font-size: 14px;
     line-height: 21px;
     text-align: right;
 }
 
-.header_user-photo {
+.user__photo {
     position: relative;
 }
 
-.header_circle {
+.user__circle {
     width: 12px;
     height: 12px;
     border-radius: 50%;
