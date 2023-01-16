@@ -251,14 +251,11 @@ select {
 
 .destination_line {
     display: flex;
+    flex-wrap: wrap;
+    gap: 31px;
 }
 
 .destination_item {
-    margin-right: 32px;
-}
-
-.destination_item:last-of-type {
-    margin-right: 0;
 }
 
 .destination_item-img {
@@ -310,6 +307,7 @@ select {
 
 .hotels_line {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -343,10 +341,17 @@ select {
 /* hotels end */
 
 /* tips start */
-.tips_container {
+.tips-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.tips-item {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 32px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    width: calc(100% / 2 - 16px);
 }
 
 h3 {
@@ -369,9 +374,6 @@ h3 {
 }
 
 .tips_info-line {
-    /* display: grid;
-    grid-template-columns: repeat(3, 1fr);
-   column-gap: 24px;  */
    display: flex;
 
 }
