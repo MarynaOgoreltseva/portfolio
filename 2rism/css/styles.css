@@ -236,7 +236,7 @@ select {
 /* screen end */
 
 /* Destination start */
-.h2 {
+.title_medium {
     margin: 0;
     font-style: normal;
     font-weight: 600;
@@ -249,20 +249,18 @@ select {
     margin-bottom: 64px;
 }
 
-.destination_line {
+.destination-line {
     display: flex;
     flex-wrap: wrap;
     gap: 31px;
 }
 
-.destination_item {
-}
 
-.destination_item-img {
+.destination-item__img {
     margin-bottom: 8px;
 }
 
-.destination_item-name {
+.destination-item__name {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -270,7 +268,7 @@ select {
     color: #161414;
 }
 
-.destination_item-state {
+.destination-item__state {
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -289,6 +287,7 @@ select {
 }
 
 .title-content__link {
+    display: inline-block;
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
@@ -305,13 +304,13 @@ select {
     background-color: #bcb3e3;
 }
 
-.hotels_line {
+.hotels-line {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 32px;
 }
 
-.hotels_block-name { 
+.hotels-item__name { 
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -321,14 +320,14 @@ select {
     margin-bottom: 12px;
 }
 
-.hotels_location {
+.hotels-item__info {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
 
-.hotels_state-name {
+.hotels-item__location {
     margin: 0;
     font-style: normal;
     font-weight: 400;
@@ -351,7 +350,7 @@ select {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 32px;
-    width: calc(100% / 2 - 16px);
+    width: calc(100% / 2 - 32px / 2);
 }
 
 h3 {
@@ -387,6 +386,16 @@ h3 {
     line-height: 32px;
     color: #5B5B5B;
 }
+/* .icon {
+    width: 10px;
+    height: 10px;
+}
+
+.icon_calendar {
+    background: url(../img/tips-calendar.png) no-repeat center left;
+}
+ */
+
 
 .calendar {
     background: url(../img/tips-calendar.png) no-repeat center left;
@@ -400,6 +409,55 @@ h3 {
     background: url(../img/tips-coment.png) no-repeat center left;
 }
 /* tips end */
+
+/* Activities start */
+.activities-line {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.activities-item__img {
+    margin-bottom: 16px;
+}
+
+.activities-item__name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #161414;
+}
+/* Activities end */
+
+/* About us start */
+.section_about {
+    margin-bottom: 120px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+}
+
+.container__content {
+    width: 556px;
+    padding-top: 86px;
+    padding-bottom: 86px;
+}
+
+.container__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #5B5B5B;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+/* About us end */
 
 /* main_contenet end */
 
