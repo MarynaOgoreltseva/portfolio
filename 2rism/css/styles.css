@@ -288,7 +288,7 @@ select {
     margin-bottom: 64px;
 }
 
-.title-content__link {
+.title-link {
     display: inline-block;
     text-decoration: none;
     font-style: normal;
@@ -373,7 +373,7 @@ select {
     width: calc(100% / 2 - 32px / 2);
 }
 
-.tips_info-title {
+.tips-item__title {
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -383,7 +383,7 @@ select {
     margin-bottom: 16px;
 }
 
-.tips_info-text {
+.tips-item__text {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -392,41 +392,43 @@ select {
     margin-bottom: 108px;
 }
 
-.tips_info-line {
+.tips-info {
    display: flex;
-
+   gap: 24px;
+   padding: 0;
+   margin: 0;
+   list-style: none;
 }
 
-.line-text {
-    padding-left: 16px;
-    margin-right: 24px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 32px;
-    color: #5B5B5B;
+.tips-info__item {
+    display: flex;
+    gap: 4px;
+    align-items: center;
 }
-/* .icon {
-    width: 10px;
-    height: 10px;
+
+.icon {
+    width: 16px;
+    height: 16px;
 }
 
 .icon_calendar {
-    background: url(../img/tips-calendar.png) no-repeat center left;
-}
- */
-
-
-.calendar {
-    background: url(../img/tips-calendar.png) no-repeat center left;
+    background: url(../img/tips-calendar.png) no-repeat center;
 }
 
-.user-picture {
-    background: url(../img/tips-user.png) no-repeat center left;
+.tips-info__name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #878787;
 }
 
-.number {
-    background: url(../img/tips-coment.png) no-repeat center left;
+.icon_user {
+    background: url(../img/tips-user.png) no-repeat center;
+}
+
+.icon_number {
+    background: url(../img/tips-coment.png) no-repeat center;   
 }
 /* tips end */
 
