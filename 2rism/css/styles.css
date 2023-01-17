@@ -339,6 +339,24 @@ select {
     background: url('../img/map-pin.png') no-repeat center left;
     padding-left: 20px;
 }
+
+.raiting {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2px;
+}
+
+.raiting__star {
+    width: 16px;
+    height: 16px;
+    background: url('../img/empty.png') no-repeat center;
+}
+
+.is-active {
+    background: url('../img/orange.png') no-repeat center;
+}
+
+
 /* hotels end */
 
 /* tips start */
