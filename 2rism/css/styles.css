@@ -135,7 +135,10 @@ body {
 }
 
 .screen-btn {
-    background: url('../img/Group.png') no-repeat 26px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 32px auto 0;
     text-decoration: none;
     font-style: normal;
     font-weight: 600;
@@ -143,13 +146,24 @@ body {
     line-height: 24px;
     color: #FFFFFF;
     background-color: #7B61FF;
-    margin-top: 32px;
-    display: inline-block;
-    padding: 24px 24px 24px 56px;
+    padding: 24px;
     border-radius: 12px;
+    width: fit-content;
 }
 
-.screen-link:hover {
+.icon {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+}
+
+.icon_globe {
+    width: 24px;
+    height: 24px;
+    background:  #7B61FF url('../img/Group.png') no-repeat center left; 
+}
+
+.screen-btn:hover {
     background-color: #a699e7;
 }
 
@@ -288,7 +302,7 @@ select {
     margin-bottom: 64px;
 }
 
-.title-link {
+.btn-more {
     display: flex;
     flex-wrap: wrap;
     gap: 4px;
@@ -303,11 +317,6 @@ select {
     background-color: #F6F4FF;
     border-radius: 12px;
     width: fit-content;
-}
-
-.icon {
-    width: 16px;
-    height: 16px;
 }
 
 .icon_arrow {
