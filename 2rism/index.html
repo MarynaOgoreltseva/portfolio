@@ -61,17 +61,17 @@
                     <h1 class="title title_big">
                         Discover the most engaging places
                     </h1>
-                    <a href="#" class="screen-link">
+                    <a href="#" class="screen-btn">
                         Discover on 3D Globe
                     </a>
                 </div>
-                <form class="form_content form_content__screen">
-                    <div class="form_item form_item__location">
-                        <label for="location" class="form_label">Location</label>
-                        <input type="text" class="form_input" id="location" placeholder="Explore nearby destinations">
+                <form class="page-form page-form_screen">
+                    <div class="page-form__item page-form__item_location">
+                        <label for="location" class="page-form__label">Location</label>
+                        <input type="text" class="page-form__input" id="location" placeholder="Explore nearby destinations">
                     </div>
-                    <div class="form_item form_item__activity">
-                        <label for="activity" class="form_label">Activity</label>
+                    <div class="page-form__item page-form__item_activity">
+                        <label for="activity" class="page-form__label">Activity</label>
                         <select name="form_select" id="activity">
                             <option disabled="disabled" selected="selected">All Activities</option>
                             <option>sleep</option>
@@ -80,12 +80,12 @@
                             <option>work</option>
                         </select>
                     </div>
-                    <div class="form_item form_item__when">
-                        <label for="when" class="form_label">When</label>
-                        <input type="date" class="form_input" id="when">
+                    <div class="page-form__item page-form__item_when">
+                        <label for="when" class="page-form__label">When</label>
+                        <input type="date" class="page-form__input" id="when">
                     </div>
-                    <div class="form_item form_item__guest">
-                        <label for="guest" class="form_label">Guests</label>
+                    <div class="page-form__item page-form__item_guest">
+                        <label for="guest" class="page-form__label">Guests</label>
                         <select name="form_input" id="guest">
                             <option disabled="disabled" selected="selected">1 guest</option>
                             <option>1 guest</option>
@@ -93,7 +93,7 @@
                             <option>3 guest</option>
                         </select>
                     </div>
-                    <button type="submit" class="button form_submit__screen"></button>
+                    <button type="submit" class="btn btn_screen"></button>
                 </form>
             </div>
         </section>
@@ -181,7 +181,8 @@
                         Hotels and Restaurants
                     </h2>
                     <a href="#" class="title-link">
-                        View all
+                        <span class="title-link__name">View all</span>
+                        <span class="title-link__icon  icon icon_arrow"></span>
                     </a>
                 </div>
                 <div class="hotels-line">
@@ -196,12 +197,12 @@
                             <p class="hotels-item__location">
                                 Salerno, Italy
                             </p>
-                            <div class="raiting">
-                                <span class="raiting__star is-active"></span>
-                                <span class="raiting__star is-active"></span>
-                                <span class="raiting__star is-active"></span>
-                                <span class="raiting__star is-active"></span>
-                                <span class="raiting__star is-active"></span>
+                            <div class="rating">
+                                <span class="rating__item is-active"></span>
+                                <span class="rating__item is-active"></span>
+                                <span class="rating__item is-active"></span>
+                                <span class="rating__item is-active"></span>
+                                <span class="rating__item is-active"></span>
                             </div>
                         </div>
                     </div>
@@ -216,12 +217,12 @@
                             <p class="hotels-item__location">
                                 Lake Como, Italy
                             </p>
-                            <div class="raiting">
-                                <span class="raiting__star is-active"></span>
-                                <span class="raiting__star is-active"></span>
-                                <span class="raiting__star is-active"></span>
-                                <span class="raiting__star"></span>
-                                <span class="raiting__star"></span>
+                            <div class="rating">
+                                <span class="rating__item is-active"></span>
+                                <span class="rating__item is-active"></span>
+                                <span class="rating__item is-active"></span>
+                                <span class="rating__item"></span>
+                                <span class="rating__item"></span>
                             </div>
                         </div>
                     </div>
@@ -236,12 +237,12 @@
                             <p class="hotels-item__location">
                                 Udaipur, India
                             </p>
-                            <div class="raiting">
-                                <span class="raiting__star is-active"></span>
-                                <span class="raiting__star is-active"></span>
-                                <span class="raiting__star is-active"></span>
-                                <span class="raiting__star is-active"></span>
-                                <span class="raiting__star"></span>
+                            <div class="rating">
+                                <span class="rating__item is-active"></span>
+                                <span class="rating__item is-active"></span>
+                                <span class="rating__item is-active"></span>
+                                <span class="rating__item is-active"></span>
+                                <span class="rating__item"></span>
                             </div>
                         </div>
                     </div>
@@ -256,12 +257,12 @@
                             <p class="hotels-item__location">
                                 Los Angeles, United States
                             </p>
-                            <div class="raiting">
-                                <span class="raiting__star is-active"></span>
-                                <span class="raiting__star is-active"></span>
-                                <span class="raiting__star is-active"></span>
-                                <span class="raiting__star"></span>
-                                <span class="raiting__star"></span>
+                            <div class="rating">
+                                <span class="rating__item is-active"></span>
+                                <span class="rating__item is-active"></span>
+                                <span class="rating__item is-active"></span>
+                                <span class="rating__item"></span>
+                                <span class="rating__item"></span>
                             </div>
                         </div>
                     </div>
@@ -276,7 +277,8 @@
                         Travel Tips and Advice
                     </h2>
                     <a href="#" class="title-link">
-                        View all
+                        <span class="title-link__name">View all</span>
+                        <span class="title-link__icon  icon icon_arrow"></span>
                     </a>
                 </div>
                 <div class="tips-container">
@@ -367,7 +369,8 @@
                         Activities
                     </h2>
                     <a href="#" class="title-link">
-                        View all
+                        <span class="title-link__name">View all</span>
+                        <span class="title-link__icon  icon icon_arrow"></span>
                     </a>
                 </div>
                 <div class="activities-line">
@@ -416,9 +419,10 @@
                         <div class="container__text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a sapien justo. Nulla facilisis tristique imperdiet. Nullam a placerat odio. Sed in ex augue. Aliquam porta consectetur lorem sit amet ultrices. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
                         </div>
-                        <a href="#" class="title-link">
-                            Read more
-                        </a>
+                    <a href="#" class="title-link">
+                        <span class="title-link__name">View all</span>
+                        <span class="title-link__icon  icon icon_arrow"></span>
+                    </a>
                 </div>
                 <a href="#" class="container__img-link">
                     <img src="img/imgaboutUs.jpg" class="container__img" alt="Big Sur">
@@ -427,115 +431,113 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="wrap">
-            <div class="footer_wrap">
-                <div class="footer_label">
-                    <img src="img/logo_footer.png" alt="logo" class="footer_logo">
-                    <div class="footer_label-text">
-                        We always make our customers happy by providing as many choises as possible
-                    </div>
-                    <div class="footer_social">
-                            <a href="#" class="footer_social-link" target='_blank' >
-                                <img src="img/fb.png" alt="facebook" class="footer_social-icon">
-                            </a>
-                            <a href="#" class="footer_social-link" target='_blank'>
-                                <img src="img/instagram.png" alt="instagram" class="footer_social-icon">
-                            </a>
-                            <a href="#" class="footer_social-link" target='_blank'>
-                                <img src="img/twitter.png" alt="twitter" class="footer_social-icon">
-                            </a>
-                    </div>
+        <div class="wrap wrap_footer">
+            <div class="label-block">
+                <img src="img/logo_footer.png" alt="logo" class="logo_footer">
+                <div class="label-block__text">
+                    We always make our customers happy by providing as many choises as possible
                 </div>
-                <div class="footer_menu">
-                    <ul class="footer_list">
-                        <h3 class="title title_small title_footer">
-                            About
-                        </h3>
-                        <li class="footer_list-item">
-                            <a href="#" class="footer_list-link" target='_blank'>
+                <div class="social">
+                        <a href="#" class="social__img-link" target='_blank' >
+                            <img src="img/fb.png" alt="facebook" class="social__img">
+                        </a>
+                        <a href="#" class="social__img-link" target='_blank'>
+                            <img src="img/instagram.png" alt="instagram" class="social__img">
+                        </a>
+                        <a href="#" class="social__img-link" target='_blank'>
+                            <img src="img/twitter.png" alt="twitter" class="social__img">
+                        </a>
+                </div>
+            </div>
+            <div class="menu">
+                <ul class="menu-list">
+                    <h3 class="title title_small title_footer">
+                        About
+                    </h3>
+                    <li class="menu-list__item">
+                            <a href="#" class="menu-list__link" target='_blank'>
                                 About Us
                             </a>
-                        </li>
-                        <li class="footer_list-item">
-                            <a href="#" class="footer_list-link" target='_blank'>
+                    </li>
+                    <li class="menu-list__item">
+                            <a href="#" class="menu-list__link" target='_blank'>
                                 Features
                             </a>
-                        </li>
-                        <li class="footer_list-item">
-                            <a href="#" class="footer_list-link" target='_blank'>
+                    </li>
+                    <li class="menu-list__item">
+                            <a href="#" class="menu-list__link" target='_blank'>
                                 News
                             </a>
-                        </li>
-                        <li class="footer_list-item">
-                            <a href="#" class="footer_list-link" target='_blank'>
+                    </li>
+                    <li class="menu-list__item">
+                            <a href="#" class="menu-list__link" target='_blank'>
                                 Menu
                             </a>
-                        </li>
-                    </ul>
-                    <ul class="footer_list">
+                    </li>
+                </ul>
+                <ul class="menu-list">
                         <h3 class="title title_small title_footer">
                             Company
                         </h3>
-                        <li class="footer_list-item">
-                            <a href="#" class="footer_list-link" target='_blank'>
+                        <li class="menu-list__item">
+                            <a href="#" class="menu-list__link" target='_blank'>
                                 About Us
                             </a>
                         </li>
-                        <li class="footer_list-item">
-                            <a href="#" class="footer_list-link" target='_blank'>
+                        <li class="menu-list__item">
+                            <a href="#" class="menu-list__link" target='_blank'>
                                 Features
                             </a>
                         </li>
-                        <li class="footer_list-item">
-                            <a href="#" class="footer_list-link" target='_blank'>
+                        <li class="menu-list__item">
+                            <a href="#" class="menu-list__link" target='_blank'>
                                 News
                             </a>
                         </li>
-                        <li class="footer_list-item">
-                            <a href="#" class="footer_list-link" target='_blank'>
+                        <li class="menu-list__item">
+                            <a href="#" class="menu-list__link" target='_blank'>
                                 Menu
                             </a>
                         </li>
-                    </ul>
-                    <ul class="footer_list">
+                </ul>
+                <ul class="menu-list">
                         <h3 class="title title_small title_footer">
                             Support
                         </h3>
-                        <li class="footer_list-item">
-                            <a href="#" class="footer_list-link" target='_blank'>
+                        <li class="menu-list__item">
+                            <a href="#" class="menu-list__link" target='_blank'>
                                 About Us
                             </a>
                         </li>
-                        <li class="footer_list-item">
-                            <a href="#" class="footer_list-link" target='_blank'>
+                        <li class="menu-list__item">
+                            <a href="#" class="menu-list__link" target='_blank'>
                                 Features
                             </a>
                         </li>
-                        <li class="footer_list-item">
-                            <a href="#" class="footer_list-link" target='_blank'>
+                        <li class="menu-list__item">
+                            <a href="#" class="menu-list__link" target='_blank'>
                                 News
                             </a>
                         </li>
-                        <li class="footer_list-item">
-                            <a href="#" class="footer_list-link" target='_blank'>
+                        <li class="menu-list__item">
+                            <a href="#" class="menu-list__link" target='_blank'>
                                 Menu
                             </a>
                         </li>
-                    </ul>
-                </div>
-                <div class="footer_email">
-                    <h3 class="footer_email-title h3">
-                        Subscribe on our destination review newsletters
-                    </h3>
-                    <form class="form_content form_content__footer">
-                        <div action="" class="form_item form_item__email">
-                            <label for="email_name" class="form_label form_label__footer">Your Email</label>
-                            <input type="text" id="email_name" name="user email" class="form_input form_input__foorer" placeholder="johndoe@gmail.com">
-                        </div>        
-                        <button type="submit" class="button form_submit__footer">
-                        </button>
-                    </form>
-                </div>
+                </ul>
+            </div>
+            <div class="page-form page-form_footer">
+                <h3 class="title title_small title_footer">
+                    Subscribe on our destination review newsletters
+                </h3>
+                <form class="page-form page-form_footer">
+                    <div action="" class="page-form__item page-form__item_email">
+                        <label for="email_name" class="page-form__label page-form__label_footer">Your Email</label>
+                        <input type="text" id="email_name" name="user email" class="page-form__input page-form__input_foorer" placeholder="johndoe@gmail.com">
+                    </div>        
+                    <button type="submit" class="btn btn_footer">
+                    </button>
+                </form>
             </div>
         </div>
     </footer>
