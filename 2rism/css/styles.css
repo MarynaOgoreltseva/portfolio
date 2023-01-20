@@ -550,13 +550,13 @@ select {
     margin-right: 0;
 }
 
-.menu {
+.footer__menu {
     display: flex;
     flex-wrap: wrap;
     gap: 64px;
 }
 
-.menu-list {
+.footer__list {
     margin: 0;
     padding-left: 0;
     list-style: none;
@@ -571,19 +571,19 @@ select {
     color: #161414;
 }
 
-.title_footer {
+.footer__title {
     margin-bottom: 20px;
 }
 
-.menu-list__item {
+.footer__item {
     margin-bottom: 12px;
 }
 
-.menu-list__item:last-of-type {
+.footert__item:last-of-type {
     margin-bottom: 0;
 }
 
-.menu-list__link {
+.footer__link {
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
@@ -592,7 +592,7 @@ select {
     color: #5B5B5B;
 }
 
-.menu-list__link:hover {
+.footer__link:hover {
     color: #272525;
 }
 
