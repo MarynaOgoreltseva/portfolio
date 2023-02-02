@@ -1,3 +1,15 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button, input, textarea {
+    border: 0;
+}
+
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -38,15 +50,10 @@ body {
     margin: auto 0;
     padding-left: 0;
     display: flex;
+    flex-wrap: wrap;
+    gap: 0 54px;
 }
 
-.nav__item {
-    margin-right: 54px;
-}
-
-.nav__item:last-of-type {
-    margin-right: 0;
-}
 
 .nav__link {
     text-decoration: none;
@@ -160,7 +167,7 @@ body {
 .icon_globe {
     width: 24px;
     height: 24px;
-    background:  #7B61FF url('../img/Group.png') no-repeat center left; 
+    background: url('../img/Group.png') no-repeat center left; 
 }
 
 .screen-btn:hover {
@@ -212,7 +219,8 @@ select {
     background-color: #FFFFFF;
     padding: 8px;
     border-radius: 12px;
-    width: 1140px;
+    max-width: 1140px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -394,7 +402,9 @@ select {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 32px;
-    width: calc(100% / 2 - 32px / 2);
+    width: 100%;
+    max-width: calc(50% - 16px);
+    min-width: 672px;
 }
 
 .tips-item__title {
