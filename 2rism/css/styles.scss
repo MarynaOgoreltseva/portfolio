@@ -27,6 +27,7 @@ body {
         padding-top: 39px;
         display: flex;
         justify-content: space-between;
+        background: #000;
     }
     &_footer {
         display: flex;
@@ -120,7 +121,6 @@ body {
 .header {
     position: absolute;
     width: 100%;
-    background: #000;
 }
 
 .nav {
