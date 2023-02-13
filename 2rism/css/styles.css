@@ -598,6 +598,9 @@ body {
   .wrap_footer {
     display: block;
   }
+  .footer {
+    padding: 0 0 55px;
+  }
   .footer__menu {
     margin-top: 40px;
     margin-bottom: 40px;
