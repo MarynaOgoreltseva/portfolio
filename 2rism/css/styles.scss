@@ -31,7 +31,7 @@ body {
     }
     &_footer {
         display: flex;
-        justify-content: space-between;
+        gap: 64px;
     }
 }
 
@@ -223,7 +223,6 @@ body {
 .page-form {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     &__item {
         padding: 16px 0px 16px 56px;
         &_location {
@@ -277,9 +276,10 @@ body {
         max-width: 1140px;
         width: 100%;
         margin: 0 auto;
+        justify-content: space-between;
     }
     &_footer {
-        width: 388px;
+        gap: 90px;
     }
 }
 /* screen end */
@@ -515,14 +515,13 @@ body {
     padding: 120px 0;
     &__menu {
         display: flex;
-        flex-wrap: wrap;
         gap: 64px;
     }
     &__list {
         margin: 0;
         padding-left: 0;
         list-style: none;
-        width: 126px;
+        width: 125px;
     }
     &__title {
         margin-bottom: 20px;
@@ -543,6 +542,9 @@ body {
         &:hover {
             color: #272525;
         }
+    &__form-wrap {
+        
+    }
     }
 }
 
@@ -571,3 +573,53 @@ body {
     }
 }
 /* footer end */
+
+
+
+@media screen and (max-width:1024px) {
+    .nav__list {
+        gap: 0 35px;
+    }
+    .destination-line {
+        gap: 0 70px;
+        justify-content: center;
+    }
+    .hotels-line {
+        justify-content: center;
+    }
+    .tips-container {
+        justify-content: center;
+    }
+    .activities-line {
+        justify-content: center;
+    }
+    .footer {
+        &__menu {
+            flex-wrap: nowrap;
+            gap: 0px;
+        }
+        &__title {
+            margin-bottom: 55px;
+        }
+    }
+    .page-form_footer {
+        gap: 50px;
+    }
+}
+    
+@media screen and (max-width:768px) {
+    .nav {
+        display: none;
+    }
+
+    .wrap_footer {
+        display: block;
+    }
+
+    .footer {
+        &__menu {
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+    }
+}
