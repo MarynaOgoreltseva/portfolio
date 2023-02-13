@@ -240,6 +240,7 @@ body {
 }
 .page-form__item_email {
   background: url(../img/mail-linemail.png) no-repeat 16px center;
+  width: calc(100% - 72px);
 }
 .page-form__label {
   font-style: normal;
@@ -278,7 +279,8 @@ body {
   justify-content: space-between;
 }
 .page-form_footer {
-  gap: 90px;
+  max-width: 388px;
+  width: 100%;
 }
 
 /* screen end */
@@ -587,9 +589,6 @@ body {
   }
   .footer__title {
     margin-bottom: 55px;
-  }
-  .page-form_footer {
-    gap: 50px;
   }
 }
 @media screen and (max-width: 768px) {

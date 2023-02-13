@@ -242,6 +242,7 @@ body {
         }
         &_email {
             background: url(../img/mail-linemail.png) no-repeat 16px center;
+            width: calc(100% - 72px);
         }
     }
     &__label {
@@ -279,7 +280,8 @@ body {
         justify-content: space-between;
     }
     &_footer {
-        gap: 90px;
+        max-width: 388px;
+        width: 100%;
     }
 }
 /* screen end */
@@ -602,9 +604,6 @@ body {
             margin-bottom: 55px;
         }
     }
-    .page-form_footer {
-        gap: 50px;
-    }
 }
     
 @media screen and (max-width:768px) {
@@ -623,3 +622,4 @@ body {
         }
     }
 }
+
