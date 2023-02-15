@@ -12,6 +12,11 @@ textarea {
     border: 0;
 }
 
+img {
+    display: block;
+    width: 100%;
+}
+
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -102,6 +107,7 @@ body {
     border-radius: 12px;
     width: 72px;
     height: 72px;
+    cursor: pointer;
 
     &:hover,
     &:focus,
@@ -190,7 +196,7 @@ body {
 .section {
     padding-top: 120px;
     &_screen {
-        background: url('../img/header-bg.jpg') no-repeat center;
+        background: url('../img/header-bg.jpg') no-repeat center / cover;
         padding-bottom: 100px;
         padding-top: 262px;
     }
@@ -489,7 +495,7 @@ body {
     margin-bottom: 120px;
 }
 
-.container {
+.about {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -544,9 +550,6 @@ body {
         &:hover {
             color: #272525;
         }
-    &__form-wrap {
-        
-    }
     }
 }
 
@@ -609,17 +612,74 @@ body {
 @media screen and (max-width:768px) {
     .nav {
         display: none;
+        &_mobile {
+            display: block;
+        }
     }
 
     .wrap_footer {
         display: block;
     }
 
+    .logo_header {
+        margin: 0 auto;
+    }
+
+    .btn-burger {
+        width: 48px;
+        height: 48px;
+        border-radius: 12px;
+        border: 2px solid #fff;
+        background: transparent;
+        position: relative;
+    }
+
+    .btn-burger::after, .btn-burger::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        left: 8px;
+        right: 8px;
+    }
+
+    .btn-burger::before {
+        height: auto;
+        width: auto;
+        border-top: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        top: 12px;
+        bottom: 12px;
+    }
+
+    .btn-burger::after {
+        height: 2px;
+        height: 2px;
+        background-color: #fff;
+        bottom: 0;
+        margin: auto 0;
+    }
+
+    .user {
+        display: flex;
+        position: absolute;
+        right: 20px;
+        left: auto;
+        top: 39px;
+        &__text {
+            display: none;
+        }
+    }
+
     .footer {
         padding: 0 0 55px;
         &__menu {
-            margin-top: 40px;
-            margin-bottom: 40px;
+            margin-top: 32px;
+            margin-bottom: 32px;
+        }
+        &__title {
+            margin-bottom: 16px;
         }
     }
 }
