@@ -711,6 +711,7 @@ body {
 
     .page-form{
         &_screen {
+            max-width: 440px;
             flex-direction: column;
         }
         &__input {
@@ -734,9 +735,9 @@ body {
     .btn {
         width: 100%;
         cursor: pointer;
-        // &_footer {
-        //     width: 81%;
-        // }
+        &_footer {
+            width: 81%;
+        }
     }
 
     .tips-item {
@@ -759,4 +760,5 @@ body {
     .destination-item {
         width: calc(50% - 10px);
     }
+
 }

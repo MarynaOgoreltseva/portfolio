@@ -684,6 +684,7 @@ body {
     margin-bottom: 100px;
   }
   .page-form_screen {
+    max-width: 440px;
     flex-direction: column;
   }
   .page-form__input {
@@ -704,6 +705,9 @@ body {
   .btn {
     width: 100%;
     cursor: pointer;
+  }
+  .btn_footer {
+    width: 81%;
   }
   .tips-item {
     grid-template-columns: repeat(auto-fill, 100%);
