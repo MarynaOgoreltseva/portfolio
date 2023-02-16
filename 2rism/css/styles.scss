@@ -718,6 +718,10 @@ body {
         margin-bottom: 100px;
     }
 
+    .screen-btn__icon {
+        display: none;
+    }
+
     .page-form{
         &_screen {
             max-width: 440px;
