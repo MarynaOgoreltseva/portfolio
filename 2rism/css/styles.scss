@@ -692,9 +692,9 @@ body {
         }
     }
 
-        .title-content {
-            gap: 20px;
-        }
+    .title-content {
+        gap: 20px;
+    }
 }
 
 @media screen and (max-width:480px) {
@@ -753,9 +753,6 @@ body {
     .btn {
         width: 100%;
         cursor: pointer;
-        &_footer {
-            width: 81%;
-        }
     }
 
     .tips-item {

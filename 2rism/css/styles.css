@@ -721,9 +721,6 @@ body {
     width: 100%;
     cursor: pointer;
   }
-  .btn_footer {
-    width: 81%;
-  }
   .tips-item {
     grid-template-columns: repeat(auto-fill, 100%);
     max-width: 100%;
