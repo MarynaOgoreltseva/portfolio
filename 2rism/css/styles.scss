@@ -524,12 +524,16 @@ body {
     &__menu {
         display: flex;
         gap: 64px;
+        max-width: 505px;
+        width: 100%;
+    }
+    &__column {
+        width: calc(100% / 3);
     }
     &__list {
         margin: 0;
         padding-left: 0;
         list-style: none;
-        width: 125px;
     }
     &__title {
         margin-bottom: 20px;
@@ -551,10 +555,15 @@ body {
             color: #272525;
         }
     }
+    &__form-wrap {
+        max-width: 388px;
+        width: 100%;
+    }
 }
 
 .label-block {
-    width: 355px;
+    max-width: 364px;
+    width: 100%;
     &__text {
         font-style: normal;
         font-weight: 400;
@@ -601,7 +610,7 @@ body {
     .footer {
         &__menu {
             flex-wrap: nowrap;
-            gap: 0px;
+            gap: 0 27px;
         }
         &__title {
             margin-bottom: 55px;

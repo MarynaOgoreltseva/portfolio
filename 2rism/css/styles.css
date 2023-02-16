@@ -517,12 +517,16 @@ body {
 .footer__menu {
   display: flex;
   gap: 64px;
+  max-width: 505px;
+  width: 100%;
+}
+.footer__column {
+  width: 33.3333333333%;
 }
 .footer__list {
   margin: 0;
   padding-left: 0;
   list-style: none;
-  width: 125px;
 }
 .footer__title {
   margin-bottom: 20px;
@@ -544,9 +548,14 @@ body {
 .footer__link:hover {
   color: #272525;
 }
+.footer__form-wrap {
+  max-width: 388px;
+  width: 100%;
+}
 
 .label-block {
-  width: 355px;
+  max-width: 364px;
+  width: 100%;
 }
 .label-block__text {
   font-style: normal;
@@ -590,7 +599,7 @@ body {
   }
   .footer__menu {
     flex-wrap: nowrap;
-    gap: 0px;
+    gap: 0 27px;
   }
   .footer__title {
     margin-bottom: 55px;
