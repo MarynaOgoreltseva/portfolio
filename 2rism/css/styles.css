@@ -690,7 +690,12 @@ body {
     padding-top: 200px;
   }
   .section_about {
+    padding-top: 40px;
     margin-bottom: 80px;
+  }
+  .about__content {
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   .screen-content {
     margin-bottom: 100px;
