@@ -685,8 +685,9 @@ body {
   .wrap_nav-mobile {
     display: block;
   }
-  .nav_mobile {
-    display: none;
+  .wrap.wrap_nav-mobile {
+    padding-left: 0;
+    padding-right: 0;
   }
   .nav_mobile.is-active {
     display: block;

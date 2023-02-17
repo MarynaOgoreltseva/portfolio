@@ -595,7 +595,6 @@ body {
 .wrap_nav-mobile {
     display: none;
 }
-
 @media screen and (max-width:1024px) {
     .nav__list {
         gap: 0 35px;
@@ -708,16 +707,18 @@ body {
      display: block;
  }
 // кусок для бургер меню чтоб меню выглядело развернутым
-    // .wrap {
-    //     //обнуляем падинг у врап, чтоб меню растянулось на весь экран
-    //     padding-left: 0;
-    //     padding-right: 0;
-    // }
+    .wrap {
+        //обнуляем падинг у врап, чтоб меню растянулось на весь экран
+        &.wrap_nav-mobile {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
     // .wrap_header {
     //     display: none; //прячем лого и юзер
     // }
     .nav_mobile {
-        display: none;
+        // display: none;
             &.is-active {
                 display: block;
                 padding-top: 100px;
