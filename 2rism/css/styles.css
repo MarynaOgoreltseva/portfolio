@@ -706,8 +706,8 @@ body {
     flex-direction: column;
   }
   .nav__link {
-    font-size: 8vh;
-    line-height: 11vh;
+    font-size: 5vh;
+    line-height: 8vh;
   }
 }
 @media screen and (max-width: 480px) {
