@@ -689,6 +689,9 @@ body {
     padding-left: 0;
     padding-right: 0;
   }
+  .wrap_header.is-active {
+    display: none;
+  }
   .nav_mobile.is-active {
     display: block;
     padding-top: 100px;

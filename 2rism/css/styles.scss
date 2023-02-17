@@ -714,9 +714,11 @@ body {
             padding-right: 0;
         }
     }
-    // .wrap_header {
-    //     display: none; //прячем лого и юзер
-    // }
+    .wrap_header {
+        &.is-active {
+            display: none; //прячем лого и юзер
+        }
+    }
     .nav_mobile {
         // display: none;
             &.is-active {
