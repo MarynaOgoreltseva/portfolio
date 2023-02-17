@@ -685,11 +685,7 @@ body {
   .wrap_nav-mobile {
     display: block;
   }
-  .wrap {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .wrap_header {
+  .nav_mobile {
     display: none;
   }
   .nav_mobile.is-active {
