@@ -612,10 +612,25 @@ body {
     margin-bottom: 55px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
+  .nav__list {
+    gap: 0 15px;
+  }
   .wrap_footer {
     display: block;
   }
+  .footer {
+    padding: 0 0 55px;
+  }
+  .footer__menu {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+  .footer__title {
+    margin-bottom: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
   .logo_header {
     margin: 0 auto;
   }
@@ -661,16 +676,6 @@ body {
   .user__text {
     display: none;
   }
-  .footer {
-    padding: 0 0 55px;
-  }
-  .footer__menu {
-    margin-top: 32px;
-    margin-bottom: 32px;
-  }
-  .footer__title {
-    margin-bottom: 16px;
-  }
   .title-content {
     gap: 20px;
   }
@@ -710,6 +715,47 @@ body {
     line-height: 8vh;
   }
 }
+@media screen and (max-width: 745px) {
+  .page-form_screen {
+    max-width: 440px;
+    flex-direction: column;
+  }
+  .page-form__input {
+    border-bottom: 1px solid #ccc;
+    height: 40px;
+  }
+  .page-form__select {
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    height: 40px;
+  }
+  .page-form__item {
+    padding-right: 56px;
+  }
+  .page-form_footer {
+    flex-direction: column;
+  }
+  .btn {
+    width: 100%;
+  }
+  .page-form__item_email {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 673px) {
+  .tips-item {
+    grid-template-columns: repeat(auto-fill, 100%);
+    max-width: 100%;
+    min-width: auto;
+  }
+  .tips-item__title {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+  .tips-item__text {
+    margin-bottom: 50px;
+  }
+}
 @media screen and (max-width: 480px) {
   .title_medium {
     font-size: 24px;
@@ -738,41 +784,6 @@ body {
   }
   .screen-btn__icon {
     display: none;
-  }
-  .page-form_screen {
-    max-width: 440px;
-    flex-direction: column;
-  }
-  .page-form__input {
-    border-bottom: 1px solid #ccc;
-    height: 40px;
-  }
-  .page-form__select {
-    border-bottom: 1px solid #ccc;
-    width: 100%;
-    height: 40px;
-  }
-  .page-form__item {
-    padding-right: 56px;
-  }
-  .page-form_footer {
-    flex-direction: column;
-  }
-  .btn {
-    width: 100%;
-    cursor: pointer;
-  }
-  .tips-item {
-    grid-template-columns: repeat(auto-fill, 100%);
-    max-width: 100%;
-    min-width: auto;
-  }
-  .tips-item__title {
-    font-size: 18px;
-    line-height: 1.2;
-  }
-  .tips-item__text {
-    margin-bottom: 50px;
   }
   .destination-line {
     gap: 20px;
