@@ -687,6 +687,21 @@ body {
         margin: auto 0;
     }
 
+    // рисую крестик
+        .btn-burger.open::before {
+            border-top: 2px solid green;
+            border-bottom: 0;
+            transform: rotate(45deg);
+            top: 48%;
+            left: 14%;
+            width: 29px;
+        }
+    
+        .btn-burger.open::after {
+            background-color: green;
+            transform: rotate(-45deg);
+        }
+
     .user {
         display: flex;
         position: absolute;
