@@ -670,12 +670,13 @@ body {
         right: 0px;
         width: 29px;
         margin: 0 auto;
+        color: #fff;
     }
 
     .btn-burger::before {
         height: auto;
-        border-top: 2px solid #fff;
-        border-bottom: 2px solid #fff;
+        border-top: 2px solid currentColor;
+        border-bottom: 2px solid currentColor;
         top: 12px;
         bottom: 12px;
     }
@@ -683,7 +684,7 @@ body {
     .btn-burger::after {
         height: 2px;
         height: 2px;
-        background-color: #fff;
+        background-color: currentColor;
         bottom: 0;
         margin-top: auto;
         margin-bottom: auto;
@@ -694,13 +695,13 @@ body {
             transform: rotate(45deg) translate(7px, 6px);
             height: 2px;
             border: none;
-            background: #fff;
-            transition: transform .15s ease;
+            background: currentColor;
+            transition: transform .25s ease;
         }
     
         .btn-burger.is-active::after {
             transform: rotate(-45deg);
-            transition: transform .15s ease;
+            transition: transform .25s ease;
         }
 
     .user {
@@ -763,8 +764,8 @@ body {
         flex-direction: column;
     }
     .nav__link { //меняю шрифт текста
-        font-size: 5vw;
-        line-height: 8vw;
+        font-size: 22px;
+        line-height: 1.6;
     }      
 //кусок окончен
 }
