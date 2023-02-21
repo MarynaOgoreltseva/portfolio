@@ -623,20 +623,11 @@ body {
     }
 }
 
-@media screen and (max-width:950px) {//and (min-width:769px) {
+@media screen and (max-width:950px) {
     .nav__list {
             gap: 0 15px;
         }
-    // .page-form_footer {
-    //     flex-direction: column;
-    //     margin-top: -40px;
-    // }
-    // .page-form__item_email {
-    //     width: 100%;
-    // }
-    // .btn_footer {
-    //     width: 100%;
-    // }
+
         .wrap_footer {
             display: block;
         }
@@ -753,8 +744,8 @@ body {
         flex-direction: column;
     }
     .nav__link { //меняю шрифт текста
-        font-size: 5vh;
-        line-height: 8vh
+        font-size: 5vw;
+        line-height: 8vw;
     }      
 //кусок окончен
 }
