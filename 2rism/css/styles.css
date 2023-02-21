@@ -665,9 +665,9 @@ body {
     background-color: #fff;
     bottom: 0;
     margin: auto 0;
+    transition: transform 1s ease 0.5s;
   }
   .btn-burger.is-active::before {
-    border-top: 2px solid green;
     border-bottom: 0;
     transform: rotate(45deg);
     top: 48%;
@@ -675,7 +675,6 @@ body {
     width: 29px;
   }
   .btn-burger.is-active::after {
-    background-color: green;
     transform: rotate(-45deg);
   }
   .user {
