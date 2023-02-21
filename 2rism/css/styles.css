@@ -648,12 +648,13 @@ body {
     top: 0;
     left: 0;
     z-index: 10;
-    left: 8px;
-    right: 8px;
+    left: 0px;
+    right: 0px;
+    width: 29px;
+    margin: 0 auto;
   }
   .btn-burger::before {
     height: auto;
-    width: auto;
     border-top: 2px solid #fff;
     border-bottom: 2px solid #fff;
     top: 12px;
@@ -664,18 +665,19 @@ body {
     height: 2px;
     background-color: #fff;
     bottom: 0;
-    margin: auto 0;
-    transition: transform 1s ease 0.5s;
+    margin-top: auto;
+    margin-bottom: auto;
   }
   .btn-burger.is-active::before {
-    border-bottom: 0;
-    transform: rotate(45deg);
-    top: 48%;
-    left: 14%;
-    width: 29px;
+    transform: rotate(45deg) translate(7px, 6px);
+    height: 2px;
+    border: none;
+    background: #fff;
+    transition: transform 0.15s ease;
   }
   .btn-burger.is-active::after {
     transform: rotate(-45deg);
+    transition: transform 0.15s ease;
   }
   .user {
     display: flex;
