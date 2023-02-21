@@ -688,7 +688,7 @@ body {
     }
 
     // рисую крестик
-        .btn-burger.open::before {
+        .btn-burger.is-active::before {
             border-top: 2px solid green;
             border-bottom: 0;
             transform: rotate(45deg);
@@ -697,7 +697,7 @@ body {
             width: 29px;
         }
     
-        .btn-burger.open::after {
+        .btn-burger.is-active::after {
             background-color: green;
             transform: rotate(-45deg);
         }
@@ -723,6 +723,9 @@ body {
             position: absolute;
             top: 39px;
             left: 20px;
+            &.is-active {
+                left: calc(100% - 20px - 48px);
+            }
         }
     }
  .wrap_nav-mobile {
@@ -746,7 +749,7 @@ body {
         // display: none;
             &.is-active {
                 display: block;
-                padding-top: 100px;
+                padding-top: 39px;
                 padding-left: 20px;
                 width: 100%;
                 height: 100vh;
